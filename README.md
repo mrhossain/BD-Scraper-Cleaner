@@ -1,38 +1,18 @@
 Developing-Data-Products
 ========================
-Your Shiny Application
 
-Write a shiny application with associated supporting documentation. The documentation should be thought of as whatever a user will need to get started using your application.
-Deploy the application on Rstudio's shiny server
-Share the application link by pasting it into the text box below
-Share your server.R and ui.R code on github
-The application must include the following:
+Instruction for Shiny Application
 
-Some form of input (widget: textbox, radio button, checkbox, ...)
-Some operation on the ui input in sever.R
-Some reactive output displayed as a result of server calculations
-You must also include enough documentation so that a novice user could use your application.
-The documentation should be at the Shiny website itself. Do not post to an external link.
-The Shiny application in question is entirely up to you.
-However, if you're having trouble coming up with ideas, you could start from the simple prediction algorithm done 
-in class and build a new algorithm on one of the R datasets packages. Please make the package simple for the end 
-user, so that they don't need a lot of your prerequisite knowledge to evaluate your application.
-You should emphasize a simple project given the short time frame.  
+1. Create a new directory
+2. Copy ui.R and server.R and past in your new directory
+3. Open the R console and execute this command runApp("new directory name")
 
+Example :
 
-Your Reproducible Pitch Presentation
+say your new directory name is "C:\\Users\\Razib\\Developing-Data-Products\\Shiny Application"  
+execute runApp("C:\\Users\\Razib\\Developing-Data-Products\\Shiny Application" )
 
-OK, you've made your shiny app, now it's time to make your pitch. You get 5 slides (inclusive of the title slide)  to pitch a your app. You're going to create a web page using Slidify or Rstudio Presenter with an html5 slide deck.
+Instruction for Reproducible Pitch Presentation
 
-Here's what you need
-
-5 slides to pitch our idea done in Slidify or Rstudio Presenter
-Your presentation pushed to github or Rpubs
-A link to your github or Rpubs presentation pasted into the text box below
-Your presentation must satisfy the following
-
-It must be done in Slidify or Rstudio Presenter
-It must be 5 pages
-It must be hosted on github or Rpubs
-It must contained some embedded R code that gets run when slidifying the document
-
+1. Open the Reproducible Pitch Presentation folder.
+2. Just click on "index.html"
